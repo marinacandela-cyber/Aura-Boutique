@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="tienda de ropa online, moda femenina, moda masculina, ropa de niños, perfumes, accesorios, envíos 24 horas, devoluciones gratuitas" />
+  <meta name="description" content="Aura Boutique es una tienda de ropa online con moda actual, perfumes y accesorios. Ofrecemos envíos en 24 horas y devoluciones gratuitas." />
+  <meta name="author" content="Aura Boutique" />
+
+  <title>Aura Boutique</title>
+  <link rel="icon" type="image/png" href="images/faviconaura.png" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/auralogo.png" alt="" /><span>
+              Aura Boutique
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="container">
+              <div class=" mr-auto flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav justify-content-between ">
+                  <div class="d-none d-lg-flex">
+                    <li class="nav-item">
+                      <a class="nav-link" href="service.html">
+                        auraboutique@gmail.com
+                      </a>
+                    </li>
+                  </div>
+                  <div class=" d-none d-lg-flex">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Iniciar sesión / Registrarse
+                      </a>
+                    </li>
+                    <form class="form-inline my-2 ml-5 mb-3 mb-lg-0">
+                      <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                    </form>
+                  </div>
+                </ul>
+              </div>
+            </div>
+
+            <div class="custom_menu-btn">
+              <button onclick="openNav()"></button>
+            </div>
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="index.html">INICIO</a>
+                <a href="masvendido.html">LO MÁS VENDIDO</a>
+                <a href="contact.html">CONTACTO</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+<section class="slider_section position-relative">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- SLIDE 1 -->
+      <div class="carousel-item active">
+       <span style="position: absolute; top: 7%; left: 3%; opacity: 0.6; color: #fefefe; z-index: 10;">01/03</span>
+        <div class="slider_item-box">
+          <div class="slider_item-container">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="offset-md-2 col-md-4">
+                  <div class="slider_item-detail">
+                    <div>
+                      <h1 class="slider_heading">
+                        25% descuento <br />
+                        primer pedido
+                      </h1>
+                      <p>
+                        Descubre piezas únicas diseñadas para resaltar tu estilo. Moda moderna, materiales de calidad y detalles que enamoran.
+                      </p>
+                      <div class="d-flex">
+                        <a href="" class="slider_btn">
+                          Haz tu pedido
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="hero_img-box">
+                    <img src="images/chicacompras.png" alt="Chica con bolsas de ropa en las manos" style="width: 51%; height: auto; margin-left: 20%; margin-top: 20px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="carousel-item">
+       <span style="position: absolute; top: 7%; left: 3%; opacity: 0.6; color: #fefefe; z-index: 10;">02/03</span>
+        <div class="slider_item-box">
+          <div class="slider_item-container">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="offset-md-2 col-md-4">
+                  <div class="slider_item-detail">
+                    <div>
+                      <h2 class="slider_heading">
+                        Nueva colección <br />
+                        Primavera 2025
+                      </h2>
+                      <p>
+                        Colores suaves, tejidos ligeros y diseños que marcan tendencia. Encuentra tu estilo para esta temporada.
+                      </p>
+                      <div class="d-flex">
+                        <a href="" class="slider_btn">
+                          Ver colección
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="hero_img-box">
+                    <img src="images/chicaprimavera.png" alt="Chica con un vestido de primavera" style="width: 51%; height: auto; margin-left: 20%; margin-top: 20px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="carousel-item">
+       <span style="position: absolute; top: 7%; left: 3%; opacity: 0.6; color: #fefefe; z-index: 10;">03/03</span>
+        <div class="slider_item-box">
+          <div class="slider_item-container">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="offset-md-2 col-md-4">
+                  <div class="slider_item-detail">
+                    <div>
+                      <h2 class="slider_heading">
+                        Envíos 24h y <br />
+                        devoluciones gratuitas
+                      </h2>
+                      <p>
+                        Compra sin preocupaciones. Enviamos tu pedido en menos de 24 horas y ofrecemos devoluciones gratuitas durante 30 días.
+                      </p>
+                      <div class="d-flex">
+                        <a href="" class="slider_btn">
+                          Más información
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="hero_img-box">
+                    <img src="images/chicacaja.png" alt="Chica recibiendo un paquete en su casa" style="width: 55%; height: auto; margin-left: 20%;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Flechas de navegación -->
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="sr-only">Siguiente</span>
+    </a>
+
+  </div>
+</section>
+<!-- end slider section -->
+  </div>
+
+  <!-- detail section -->
+  <section class="detail_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="detail_img-box">
+            <img src="images/pareja.png" alt="Pareja señalando a la derecha" class="w-100" />
+          </div>
+        </div>
+        <div class=" col-lg-7">
+          <div class="detail_container">
+            <div class="detail-box d-box-1">
+              <a href="">
+                <div class="detail-content">
+              
+                  <h5>
+                    MUJER
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="detail-box d-box-2">
+              <a href="">
+                <div class="detail-content">
+                
+                  <h5>
+                    HOMBRE
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="detail-box d-box-3">
+              <a href="">
+                <div class="detail-content">
+                
+                  <h5>
+                    NIÑOS
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="detail-box d-box-4">
+              <a href="">
+                <div class="detail-content">
+                
+                  <h5>
+                    OFERTAS
+                  </h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end detail section -->
+
+  <!-- products section -->
+  <section class="products_section">
+    <div class="heading_container">
+      <h2>
+        Nuevos productos en nuestra colección
+      </h2>
+      <p>
+        Recién llegados a la tienda
+      </p>
+    </div>
+    <div class="container layout_padding">
+      <div class="product_container">
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/camisetarayas.png" alt="Camiseta de manga larga marrón con rayas azules y blancas y texto Paris en rosa" style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                25,99€
+              </span>
+              <p>
+                Camiseta rayas texto Paris
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/camisetagris.png" alt="Camiseta de manga corta gris con texto Pippi en rosa" style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                20,99€
+              </span>
+              <p>
+                Camiseta Pippi efecto lavado
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/vaquero1.png" alt="Pantalón vaquero largo azul claro con pernera recta y cierre frontal de cintura cruzada." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                35,99€
+              </span>
+              <p>
+                Vaquero cintura cruzada
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/poloregularfit.png" alt="Polo de manga larga en color negro, con cuello clásico y corte recto." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                29,95€
+              </span>
+              <p>
+                Polo regular fit
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/pantalonchino.png" alt="Pantalón chino largo en color oscuro con corte ajustado y diseño liso." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                25,95€
+              </span>
+              <p>
+                Pantalón chino skinny
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/chaquetabomber.png" alt="Chaqueta bomber marrón con acabado tipo piel y forro interior visible de borrego." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                59,95€
+              </span>
+              <p>
+                Chaqueta bomber doble faz
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/vestidolencero.png" alt="Vestido largo satinado en color burdeos, de tirantes finos y corte recto." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                49,95€
+              </span>
+              <p>
+                Vestido lencero satinado
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/sudaderalavada.png" alt="Sudadera gris con efecto lavado, cuello alto y cierre de cremallera frontal." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                30,95€
+              </span>
+              <p>
+                Sudadera lavada cremallera
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/toplana.png" alt="Top de punto sin mangas en color oscuro, con cuello alto y textura jaspeada." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar 
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                22,95€
+              </span>
+              <p>
+                Top halter lana 
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/jerseypunto.png" alt="Jersey de manga larga en color burdeos, con cuello alto y tejido de punto liso." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                29,95€
+              </span>
+              <p>
+                Jersey punto cuello alto 
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/camisetaazul.png" alt="Camiseta de manga larga con rayas horizontales azules y negras y cuello redondo." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                25,95€
+              </span>
+              <p>
+                Camiseta rayas azul
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/blazer.png" alt="Chaqueta tipo blazer en color negro, con solapas clásicas y corte estructurado." style="width: 80%; height: auto; margin-top: -30px;" />
+              <span>
+                Comprar
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                69,95€
+              </span>
+              <p>
+                Blazer traje
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end products section -->
+
+  <!-- find section -->
+  <section class="find_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 offset-md-2">
+          <div class="shop_container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>
+        ACCESORIOS
+      </h2>
+      <p>
+        Encuentra tu complemento ideal
+      </p>
+      <div>
+        <a href="">
+          Mirar más
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="shoe_img-box">
+        <img src="images/accesorios.png" alt="Conjunto de accesorios para complementar la vestimenta" />
+      </div>
+    </div>
+  </div>
+</div>
+          <div class="shop_container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h2>
+                  ZAPATOS
+                </h2>
+                <p>
+                  Descubre la nueva colección 
+                </p>
+                <div>
+                  <a href="">
+                    Mirar más 
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="shoe_img-box">
+                  <img src="images/zapatos.png" alt="Calzado destacado en un montaje luminoso para promoción de temporada" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="find_img-box">
+            <img src="images/chicogafas.png" alt="Chico rubio poniéndose unas gafas de sol" style="width: 80%;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end find section -->
+  <!-- client section -->
+  <section class="client_section layout_padding">
+    <div class="container">
+      <h2>
+        Lo que dicen nuestros clientes
+      </h2>
+      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row layout_padding2">
+              <div class="col-md-6">
+                <div class="client_box">
+                  <div class="client_id-box">
+                    <div class="client_img-box">
+                      <img src="images/fotoperfil1.jpg" alt="" style="object-position: center 30%;" />
+                    </div>
+                    <h4>Carla Rubio</h4>
+                  </div>
+                  <div class="client_detail">
+                    <p>
+                      Estoy realmente impresionada con la calidad de los productos.
+                      Cada prenda que pedí llegó en perfectas condiciones y tal como
+                      se mostraba en la web. Además, la entrega fue rapidísima, en menos
+                      de 24 horas. Lo que más me gustó fue la atención al cliente, me
+                      resolvieron todas las dudas muy profesional y amablemente. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="client_box">
+                  <div class="client_id-box">
+                    <div class="client_img-box">
+                      <img src="images/fotoperfil2.jpg" alt="" style="object-position: center 70%;" />
+                    </div>
+                    <h4>Lorena García</h4>
+                  </div>
+                  <div class="client_detail">
+                    <p>
+                      Desde que descubrí esta tienda, se ha vuelto mi favorita para
+                      hacer compras online. La variedad de productos es increíble y siempre 
+                      encuentro algo que se ajusta a mi estilo. Pedir es muy fácil y el envío
+                      en 24 horas realmente cumple lo que promete. También me gusta mucho que 
+                      las devoluciones sean gratuitas, da mucha tranquilidad al comprar.
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row layout_padding2">
+              <div class="col-md-6">
+                <div class="client_box">
+                  <div class="client_id-box">
+                    <div class="client_img-box">
+                      <img src="images/fotoperfil3.avif" alt="" style="object-position: center 70%;" />
+                    </div>
+                    <h4>Ana Fuster</h4>
+                  </div>
+                  <div class="client_detail">
+                    <p>
+                      He comprado varias veces y cada experiencia ha sido excelente.
+                      Los productos son de alta calidad y los diseños son muy modernos,
+                      justo lo que estaba buscando. Me gusta que la web sea clara y fácil
+                      de navegar. El paquete llegó perfectamente embalado y dentro del plazo
+                      prometido. Además, el seguimiento del pedido es muy práctico. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="client_box">
+                  <div class="client_id-box">
+                    <div class="client_img-box">
+                      <img src="images/fotoperfil4.jpg" alt="" />
+                    </div>
+                    <h4>Alberto Rodríguez</h4>
+                  </div>
+                  <div class="client_detail">
+                    <p>
+                      La atención al cliente me sorprendió gratamente, fueron pacientes
+                      y respondieron a todas mis preguntas con detalle. Pedí varios artículos
+                      y todos llegaron a tiempo. Lo que más me gusta es la combinación entre
+                      rapidez, calidad y servicio, y los productos son tal cual como aparecen
+                      en la web. Definitivamente 10/10. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="item_container">
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>
+              Descubre nuestra colección de perfumes
+            </h3>
+            <p>
+              Aromas únicos y fragancias que dejan huella. Encuentra tu
+              esencia y haz de cada día una experiencia inolvidable.
+            </p>
+            <div>
+              <a href="">
+                Compra ahora
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="item_img-box">
+              <img src="images/perfumes.webp" alt="Conjunto de perfumes de varios colores" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end client section -->
+
+  <!-- sign section -->
+  <section class="sign_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h3>
+            Suscríbete y consigue un 10% de descuento
+          </h3>
+          <p>
+            Recibe contenido exclusivo, consejos de moda y promociones especiales
+          </p>
+        </div>
+        <div class="col-md-7">
+          <form action="">
+            <input type="email" placeholder="Escribe tu email" aria-label="Correo electrónico" />
+            <button>
+              Suscribirse
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end sign section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container links_container">
+      <div class="row ">
+        <div class="col-md-3">
+          <h3>
+            ATENCIÓN AL CLIENTE
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Preguntas frecuentes
+              </a>
+            </li>
+            <li>
+              <a href="contact.html">
+                Contacto 
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Política de devoluciones
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Política de privacidad
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Información de envío
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Guía de tallas
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>
+            MI CUENTA
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Iniciar sesión 
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Mis pedidos
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Lista de deseos
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Mis direcciones
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Métodos de pago
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Cupones de descuento
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>
+            AURA BOUTIQUE
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Quiénes somos
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Nuestras tiendas
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Trabaja con nosotros
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Blog de moda
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Sostenibilidad
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Términos y condiciones
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>
+            CATEGORÍAS
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Mujer
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Hombre
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Niños
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Ofertas
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Accesorios
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Perfumes
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="follow_container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="app_container">
+              <h3>
+                MÉTODOS DE PAGO
+
+              </h3>
+              <div>
+                <img src="images/metodospago.png" alt="Métodos de pago Visa, Mastercard y PayPal">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="info_social">
+              <div>
+                <a href="">
+                  <img src="images/facebook.png" alt="Logo de Facebook">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/twitter.png" alt="Logo de Twitter">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/whatsapplogo.png" alt="Logo de WhatsApp">
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/universidadmh/?hl=es" target="_blank">
+                  <img src="images/instagram.png" alt="Logo de Instagram">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2025 Todos los derechos reservados por
+      <a href="index.html">Aura Boutique</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+</body>
+
+</html>
